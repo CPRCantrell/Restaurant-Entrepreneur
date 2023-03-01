@@ -7,6 +7,7 @@ class Simulation:
         self.fran_three = fran(3)
 
     def run_simulation(self):
+        fran.__clear_screen__()
         self.fran_one.place_order()
         self.fran_one.place_order()
         self.fran_three.place_order()
